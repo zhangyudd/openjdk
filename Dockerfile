@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine
 
 #setting time zone 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
